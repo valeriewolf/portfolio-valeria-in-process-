@@ -1,0 +1,33 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.about img{
+ width: 100%;
+ grid-column: 1/5;
+}
+
+.about-info{
+    grid-column: 5/10;
+    padding: 3em;
+}
+
+.about-info h2{
+    font-size: 2em;
+    color: #000000;
+}
+
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color: #787878;
+    margin-top: 5px;
+    margin-bottom: 2.5em;
+}
+
+.about p{
+    margin-bottom: 1em;
+}

@@ -1,0 +1,99 @@
+.contact-section{
+    background-color: #fff;
+}
+
+.container-contact{
+    padding: 3em;
+    margin: 0 auto;
+}
+
+.contact-section img{
+    float: left;
+    width: 250px;
+    height: 400px;
+    bottom: 0;
+    opacity: 0.2;
+    margin-right: 8em;
+    
+} 
+
+.contact-headings {
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.contact-form{
+    margin-top: 5em;
+}
+
+.contact-form h4{
+    font-size: 1.5em;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.form input{
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #787878;
+}
+
+.form textarea{
+    height: 150px;
+    background: none;
+    padding: 1.5em;
+    border: 1px solid #787878;
+}
+
+.btn-submit{
+    width: 15em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #787878;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgb(180, 180, 180);
+    
+}
+
+.btn-submit:hover{
+    color: #000000;
+    background-color: #fff;
+    box-shadow: none;
+    transition: ease-in .3s;
+    border: 1px solid #787878;
+}
+
+
+// PLACEHOLDER FONT
+
+*::-webkit-input-placeholder {
+    /* Google Chrome y Safari */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+}
+*:-moz-placeholder {
+    /* Firefox anterior a 19 */
+    font-family: 'Montserrat', sans-serif;
+}
+*::-moz-placeholder {
+    /* Firefox 19 y superior */
+    font-family: 'Montserrat', sans-serif;
+}
+*:-ms-input-placeholder {
+    /* Internet Explorer 10 y superior */
+    font-family: 'Montserrat', sans-serif;
+}
